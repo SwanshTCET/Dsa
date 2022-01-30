@@ -5,6 +5,7 @@ using namespace std;
 
 // this function will take a vector , and a element which want to search as argrument
 // and return a position as argrument if value is -1 then element is not present
+// Position are 0 based index
 int linearSearch(vi arr, int x)
 {
     int pos = -1;
