@@ -3,7 +3,7 @@ using namespace std;
 #define ll long long int
 #define vi vector<ll>
 
-void selected(vi &ar)
+void selection(vi &ar)
 {
     for (int i = 0; i < ar.size(); i++)
     {
@@ -26,6 +26,6 @@ int main()
     {
         cin >> arr[i];
     }
-    selected(arr);
+    selection(arr);
     return 0;
 }
