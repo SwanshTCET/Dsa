@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Lower Element Higher prioriy Queue
+// It will keep make queue in increasing order such as (1,23,45,....)
+
 // Linked list (LL) node
 struct Node
 {
