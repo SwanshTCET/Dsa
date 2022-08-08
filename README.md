@@ -15,3 +15,6 @@ Please refer to each project's style and contribution guidelines for submitting 
 
   
   NOTE: Be sure to merge the latest from "upstream" before making a pull request!
+  
+  ## License
+  [MIT License](LICENSE)
