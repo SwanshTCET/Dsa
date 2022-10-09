@@ -1,21 +1,25 @@
 /*
-   __,_,
-  [_|_/
+   _,,
+  [|/
    //
- _//    __
+ //    _
 (_|)   |@@|
  \ \__ \--/ __
-  \o__|----|  |   __
+  \o_|----|  |   _
       \ }{ /\ )_ / _\
-      /\__/\ \__O (__
+      /\_/\ \O (_
      (--/\--)    \__/
-     _)(  )(_
+     )(  )(
     `---''---`
 
     Don't Copy Code Or Plag will kill You
 */
 #include <bits/stdc++.h>
+#include <ext/pb_ds/assoc_container.hpp>
+#include <ext/pb_ds/tree_policy.hpp>
+#include <ext/pb_ds/detail/standard_policies.hpp>
 using namespace std;
+using namespace __gnu_pbds;
 #define ll long long int
 #define nl "\n"
 #define vi vector<ll>
@@ -25,7 +29,11 @@ using namespace std;
 #define ppb pop_back
 #define pi 3.141592653589793238462
 #define mod 1000000007
-#define sz(a) a.size()
+
+template <class T>
+using ordered_set = tree<T, null_type, less<T>, rb_tree_tag, tree_order_statistics_node_update>;
+template <class k, class v>
+using ordered_map = tree<k, v, less<k>, rb_tree_tag, tree_order_statistics_node_update>;
 
 //#define rapid_killer_9
 #ifdef rapid_killer_9
@@ -67,5 +75,6 @@ int main ()
 	{
 		// cout<<"Case #"<<i<<": "; 
 		solve();
+        // cout<<nl;
 	}
 }
