@@ -51,6 +51,15 @@ void uppercase(char c[])
     }
 }
 
+// This function will traverse over the string
+void traversestring()
+{
+    for (char c = *string; c != '\0'; c = *++string)
+    {
+        putchar(c);
+    }
+}
+
 // This function will count vowel ,consonant and other word in a string and return an array
 int *vowelConsonant(char c[])
 {
