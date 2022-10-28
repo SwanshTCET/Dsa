@@ -3,6 +3,7 @@
   Its still on creation phase   
   So anyone want to contribute can do it  
   You can create pr(Pull request) of any file which is related to DSA (Data structure & Algorithm)  
+  You can code in any language rec languages (C,C++,JAVA)
 # Issue  
   Feel free to submit issues and enhancement requests.
 # Contributing
